@@ -2,9 +2,10 @@
   "name": "crud_api_nodejs",
   "version": "1.0.0",
   "description": "This is vanilla CRUD API Project",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/heyitspratham/crud_API/issues"
   },
-  "homepage": "https://github.com/heyitspratham/crud_API#readme"
+  "homepage": "https://github.com/heyitspratham/crud_API#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
